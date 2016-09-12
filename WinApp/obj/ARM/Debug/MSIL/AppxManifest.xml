@@ -10,7 +10,7 @@
   <Identity Name="48f5b814-7ae3-4c95-a73f-7eaf55acf6a9" Publisher="CN=Mobitech" Version="1.0.0.0" ProcessorArchitecture="arm" />
   <mp:PhoneIdentity PhoneProductId="48f5b814-7ae3-4c95-a73f-7eaf55acf6a9" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>WinApp</DisplayName>
+    <DisplayName>WinApp8.1</DisplayName>
     <PublisherDisplayName>Mobitech</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -23,9 +23,8 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="WinApp.exe" EntryPoint="WinApp.App">
-      <m3:VisualElements DisplayName="WinApp" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="WinApp" ForegroundText="light" BackgroundColor="transparent">
+      <m3:VisualElements DisplayName="WinApp8.1" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="WinApp8.1" ForegroundText="light" BackgroundColor="transparent">
         <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png"></m3:DefaultTile>
-        <m3:SplashScreen Image="Assets\SplashScreen.png" />
       </m3:VisualElements>
     </Application>
   </Applications>

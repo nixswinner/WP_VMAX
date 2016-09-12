@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-5QJC2A8</Machine>
+    <WindowsUser>Mobitech</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Release|ARM</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>48f5b814-7ae3-4c95-a73f-7eaf55acf6a9</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\obj\ARM\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\bin\ARM\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\bin\ARM\Release\WinApp.exe">
+      <PackagePath>WinApp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\com.vmax.windows.ads.wp81.dll">
+      <PackagePath>com.vmax.windows.ads.wp81.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\com.vmax.windowsPhone.ads.mediation.dll">
+      <PackagePath>com.vmax.windowsPhone.ads.mediation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\ExtendedProgressRing.dll">
+      <PackagePath>ExtendedProgressRing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\Microsoft.AdMediator.WindowsPhone81.dll">
+      <PackagePath>Microsoft.AdMediator.WindowsPhone81.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\Microsoft.AdMediator.Core.dll">
+      <PackagePath>Microsoft.AdMediator.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Desktop\vungle-windows-sdk-1.3.15\VungleSDK_wp8.1\VungleSDK.winmd">
+      <PackagePath>VungleSDK.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\Microsoft.Advertising.winmd">
+      <PackagePath>Microsoft.Advertising.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\bin\ARM\Release\WinApp.xr.xml">
+      <PackagePath>WinApp.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\bin\ARM\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\bin\ARM\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\com.vmax.windows.ads.wp81\com.vmax.windows.ads.wp81.xr.xml">
+      <PackagePath>com.vmax.windows.ads.wp81\com.vmax.windows.ads.wp81.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\com.vmax.windows.ads.wp81\General\ProgressRingControl.xbf">
+      <PackagePath>com.vmax.windows.ads.wp81\General\ProgressRingControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\com.vmax.windows.ads.wp81\InternalBrowser\InternalBrowserPage.xbf">
+      <PackagePath>com.vmax.windows.ads.wp81\InternalBrowser\InternalBrowserPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\com.vmax.windows.ads.wp81\Themes\Generic.xbf">
+      <PackagePath>com.vmax.windows.ads.wp81\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\com.vmax.windows.ads.wp81\VASTPlayer\CircularProgressRing.xbf">
+      <PackagePath>com.vmax.windows.ads.wp81\VASTPlayer\CircularProgressRing.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\ExtendedProgressRing\ExtendedProgressRing.xr.xml">
+      <PackagePath>ExtendedProgressRing\ExtendedProgressRing.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\ExtendedProgressRing\Themes\Generic.xbf">
+      <PackagePath>ExtendedProgressRing\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\bin\ARM\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

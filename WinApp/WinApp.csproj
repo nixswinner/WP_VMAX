@@ -110,11 +110,13 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="com.vmax.windows.ads.wp81">
-      <HintPath>..\..\..\..\..\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSampleAppWP81\VMAXSampleAppWP81\packages\VMAX\com.vmax.windows.ads.wp81.dll</HintPath>
+    <Reference Include="com.vmax.windows.ads.wp81, Version=1.0.0.0, Culture=neutral, processorArchitecture=ARM">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\com.vmax.windows.ads.wp81.dll</HintPath>
     </Reference>
-    <Reference Include="com.vmax.windowsPhone.ads.mediation">
-      <HintPath>..\..\..\..\..\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSampleAppWP81\VMAXSampleAppWP81\packages\VMAX\com.vmax.windowsPhone.ads.mediation.dll</HintPath>
+    <Reference Include="com.vmax.windowsPhone.ads.mediation, Version=1.0.0.0, Culture=neutral, processorArchitecture=ARM">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\com.vmax.windowsPhone.ads.mediation.dll</HintPath>
     </Reference>
     <Reference Include="VungleSDK">
       <HintPath>..\..\..\..\..\Desktop\vungle-windows-sdk-1.3.15\VungleSDK_wp8.1\VungleSDK.winmd</HintPath>

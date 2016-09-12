@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="com.vmax.windows.ads.wp81" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="com.vmax.windows.ads.wp81">
+				<NamedResource name="com.vmax.windows.ads.wp81.xr.xml" uri="ms-resource://com.vmax.windows.ads.wp81/Files/com.vmax.windows.ads.wp81/com.vmax.windows.ads.wp81.xr.xml">
+					<Candidate type="Path">
+						<Value>com.vmax.windows.ads.wp81\com.vmax.windows.ads.wp81.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="General">
+					<NamedResource name="ProgressRingControl.xbf" uri="ms-resource://com.vmax.windows.ads.wp81/Files/com.vmax.windows.ads.wp81/General/ProgressRingControl.xbf">
+						<Candidate type="Path">
+							<Value>com.vmax.windows.ads.wp81\General\ProgressRingControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="InternalBrowser">
+					<NamedResource name="InternalBrowserPage.xbf" uri="ms-resource://com.vmax.windows.ads.wp81/Files/com.vmax.windows.ads.wp81/InternalBrowser/InternalBrowserPage.xbf">
+						<Candidate type="Path">
+							<Value>com.vmax.windows.ads.wp81\InternalBrowser\InternalBrowserPage.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://com.vmax.windows.ads.wp81/Files/com.vmax.windows.ads.wp81/Themes/Generic.xbf">
+						<Candidate type="Path">
+							<Value>com.vmax.windows.ads.wp81\Themes\Generic.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="VASTPlayer">
+					<NamedResource name="CircularProgressRing.xbf" uri="ms-resource://com.vmax.windows.ads.wp81/Files/com.vmax.windows.ads.wp81/VASTPlayer/CircularProgressRing.xbf">
+						<Candidate type="Path">
+							<Value>com.vmax.windows.ads.wp81\VASTPlayer\CircularProgressRing.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
