@@ -1,0 +1,62 @@
+﻿<Page
+    x:Class="WinApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WinApp"
+      xmlns:ad="using:com.vmax.windows.ads.wp81"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+  
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <WebView x:ConnectionId='1' HorizontalAlignment="Stretch"
+                 Name="Browser"
+                 VerticalAlignment="Stretch"
+                 Height="auto"
+                 Margin="-0.98,-2.507,3.06,0"
+                 Width="auto"
+                                        
+                                                            
+                                                      
+                 RenderTransformOrigin="0.5,0.5"
+                 UseLayoutRounding="False"
+                 d:LayoutRounding="Auto">
+            <WebView.RenderTransform>
+                <CompositeTransform SkewX="-0.48"
+                                    TranslateX="2.542" />
+            </WebView.RenderTransform>
+        </WebView>
+        <ProgressRing HorizontalAlignment="Left"
+                      Margin="137,254,0,0"
+                      VerticalAlignment="Top"
+                      Height="150"
+                      Width="135"
+                      Name="pr"
+                      Background="#FF0E49E6" />
+        <TextBlock x:Name="loadtxt"
+                   HorizontalAlignment="Left"
+                   Margin="62,312,0,0"
+                   TextWrapping="Wrap"
+                   Text="Loading please wait...................."
+                   VerticalAlignment="Top"
+                   Height="38"
+                   Width="306"
+                   Foreground="#FF283795"
+                   FontSize="21.333" />
+            <!--Vmax Banners-->
+                <ad:VMAXAdView Height="100"
+                               x:Name="TopBanner"
+                               UX="Banner"
+                               Margin="0,10,0,530" />
+                <ad:VMAXAdView Height="100"
+                               x:Name="BottomBanner"
+                               AdspotId="d1ec84b5"
+                               UX="Banner"
+                       Margin="1,513,-1,27" />
+
+
+    </Grid>
+</Page>
+
