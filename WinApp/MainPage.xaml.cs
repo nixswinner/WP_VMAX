@@ -32,7 +32,7 @@ namespace WinApp
         //......................................................//
         //Vmax id
         //Banner
-        string BannerKey = "";
+        string BannerKey = "d1ec84b5";
         //Intertistial
         string IntertialKey = "V56932057";
         //........................................................................................................................
@@ -54,7 +54,59 @@ namespace WinApp
             adView.LoadAd();
             adView.ShowAd();
             //....
-         
+            //Banners
+            TopBanner.AdspotId = BannerKey;
+            TopBanner.FailedToCacheAd += TopBanner_FailedToCacheAd;
+            TopBanner.DidCacheAd += TopBanner_DidCacheAd;
+            TopBanner.DidLoadAd += TopBanner_DidLoadAd;
+            TopBanner.LoadAd();
+            TopBanner.ShowAd();
+            //bottom
+            BottomBanner.AdspotId = BannerKey;
+            BottomBanner.FailedToCacheAd += BottomBanner_FailedToCacheAd;
+            BottomBanner.DidCacheAd += BottomBanner_DidCacheAd;
+            BottomBanner.DidLoadAd += BottomBanner_DidLoadAd;
+            BottomBanner.LoadAd();
+            BottomBanner.ShowAd();
+
+        }
+
+        private void BottomBanner_DidLoadAd(object sender, EventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("Banner loaded cached successfully");
+            BottomBanner.LoadAd();
+            BottomBanner.ShowAd();
+        }
+
+        private void BottomBanner_DidCacheAd(object sender, EventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("Banner loaded cached successfully");
+            BottomBanner.LoadAd();
+            BottomBanner.ShowAd();
+        }
+
+        private void BottomBanner_FailedToCacheAd(object sender, VMAXAdView.AdFailedEventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("Failed to cache banner ad with error " + e.ToString());
+        }
+
+        private void TopBanner_DidLoadAd(object sender, EventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("Banner loaded cached successfully");
+            TopBanner.LoadAd();
+            TopBanner.ShowAd();
+        }
+
+        private void TopBanner_DidCacheAd(object sender, EventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("Banner loaded cached successfully");
+            TopBanner.LoadAd();
+            TopBanner.ShowAd();
+        }
+
+        private void TopBanner_FailedToCacheAd(object sender, VMAXAdView.AdFailedEventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("Failed to cache banner ad with error " + e.ToString());
         }
 
         private void AdView_DidLoadAd(object sender, EventArgs e)
