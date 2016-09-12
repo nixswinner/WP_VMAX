@@ -47,8 +47,10 @@
     <RootType FullName="com.vmax.windows.ads.wp81.VMAXAdView">
       <RootProperty Name="Height" />
       <RootProperty Name="UX" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="AdspotId" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
       <RootProperty Name="SkewX" />

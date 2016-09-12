@@ -156,14 +156,14 @@ namespace WinApp.WinApp_XamlTypeInfo
             _typeNameTable[4] = "System.Enum";
             _typeNameTable[5] = "System.ValueType";
             _typeNameTable[6] = "Object";
-            _typeNameTable[7] = "String";
-            _typeNameTable[8] = "com.vmax.windows.ads.LogLevel";
-            _typeNameTable[9] = "Windows.UI.Xaml.Controls.WebView";
-            _typeNameTable[10] = "Windows.UI.Xaml.Controls.Border";
-            _typeNameTable[11] = "com.vmax.windows.ads.RequestedOrientation";
-            _typeNameTable[12] = "com.vmax.windows.ads.UserDetails";
-            _typeNameTable[13] = "Boolean";
-            _typeNameTable[14] = "Int32";
+            _typeNameTable[7] = "com.vmax.windows.ads.LogLevel";
+            _typeNameTable[8] = "Windows.UI.Xaml.Controls.WebView";
+            _typeNameTable[9] = "Windows.UI.Xaml.Controls.Border";
+            _typeNameTable[10] = "com.vmax.windows.ads.RequestedOrientation";
+            _typeNameTable[11] = "com.vmax.windows.ads.UserDetails";
+            _typeNameTable[12] = "Boolean";
+            _typeNameTable[13] = "Int32";
+            _typeNameTable[14] = "String";
             _typeNameTable[15] = "Windows.UI.Xaml.Media.SolidColorBrush";
             _typeNameTable[16] = "System.Collections.Generic.List`1<String>";
             _typeNameTable[17] = "com.vmax.windows.ads.NativeAd";
@@ -180,14 +180,14 @@ namespace WinApp.WinApp_XamlTypeInfo
             _typeTable[4] = typeof(global::System.Enum);
             _typeTable[5] = typeof(global::System.ValueType);
             _typeTable[6] = typeof(global::System.Object);
-            _typeTable[7] = typeof(global::System.String);
-            _typeTable[8] = typeof(global::com.vmax.windows.ads.LogLevel);
-            _typeTable[9] = typeof(global::Windows.UI.Xaml.Controls.WebView);
-            _typeTable[10] = typeof(global::Windows.UI.Xaml.Controls.Border);
-            _typeTable[11] = typeof(global::com.vmax.windows.ads.RequestedOrientation);
-            _typeTable[12] = typeof(global::com.vmax.windows.ads.UserDetails);
-            _typeTable[13] = typeof(global::System.Boolean);
-            _typeTable[14] = typeof(global::System.Int32);
+            _typeTable[7] = typeof(global::com.vmax.windows.ads.LogLevel);
+            _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.WebView);
+            _typeTable[9] = typeof(global::Windows.UI.Xaml.Controls.Border);
+            _typeTable[10] = typeof(global::com.vmax.windows.ads.RequestedOrientation);
+            _typeTable[11] = typeof(global::com.vmax.windows.ads.UserDetails);
+            _typeTable[12] = typeof(global::System.Boolean);
+            _typeTable[13] = typeof(global::System.Int32);
+            _typeTable[14] = typeof(global::System.String);
             _typeTable[15] = typeof(global::Windows.UI.Xaml.Media.SolidColorBrush);
             _typeTable[16] = typeof(global::System.Collections.Generic.List<global::System.String>);
             _typeTable[17] = typeof(global::com.vmax.windows.ads.NativeAd);
@@ -230,7 +230,7 @@ namespace WinApp.WinApp_XamlTypeInfo
         }
 
         private object Activate_0_VMAXAdView() { return new global::com.vmax.windows.ads.wp81.VMAXAdView(); }
-        private object Activate_12_UserDetails() { return new global::com.vmax.windows.ads.UserDetails(); }
+        private object Activate_11_UserDetails() { return new global::com.vmax.windows.ads.UserDetails(); }
         private object Activate_16_List() { return new global::System.Collections.Generic.List<global::System.String>(); }
         private object Activate_18_VastAdObject() { return new global::com.vmax.windows.ads.wp81.VastAdObject(); }
         private object Activate_19_MainPage() { return new global::WinApp.MainPage(); }
@@ -255,7 +255,6 @@ namespace WinApp.WinApp_XamlTypeInfo
                 userType = new global::WinApp.WinApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Canvas"));
                 userType.Activator = Activate_0_VMAXAdView;
                 userType.AddMemberName("UX");
-                userType.AddMemberName("AdspotId");
                 userType.AddMemberName("LogLevel");
                 userType.AddMemberName("WebControl");
                 userType.AddMemberName("WebBorder");
@@ -266,6 +265,7 @@ namespace WinApp.WinApp_XamlTypeInfo
                 userType.AddMemberName("IsExpanded");
                 userType.AddMemberName("InterstitialDuration");
                 userType.AddMemberName("RefreshRate");
+                userType.AddMemberName("AdspotId");
                 userType.AddMemberName("SetWebviewBackgroundColor");
                 userType.AddMemberName("Refresh");
                 userType.AddMemberName("TimeOut");
@@ -309,11 +309,7 @@ namespace WinApp.WinApp_XamlTypeInfo
                 xamlType = new global::WinApp.WinApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 7:   //  String
-                xamlType = new global::WinApp.WinApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 8:   //  com.vmax.windows.ads.LogLevel
+            case 7:   //  com.vmax.windows.ads.LogLevel
                 userType = new global::WinApp.WinApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::com.vmax.windows.ads.LogLevel.None);
                 userType.AddEnumValue("Info", global::com.vmax.windows.ads.LogLevel.Info);
@@ -322,15 +318,15 @@ namespace WinApp.WinApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 9:   //  Windows.UI.Xaml.Controls.WebView
+            case 8:   //  Windows.UI.Xaml.Controls.WebView
                 xamlType = new global::WinApp.WinApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 10:   //  Windows.UI.Xaml.Controls.Border
+            case 9:   //  Windows.UI.Xaml.Controls.Border
                 xamlType = new global::WinApp.WinApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 11:   //  com.vmax.windows.ads.RequestedOrientation
+            case 10:   //  com.vmax.windows.ads.RequestedOrientation
                 userType = new global::WinApp.WinApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::com.vmax.windows.ads.RequestedOrientation.None);
                 userType.AddEnumValue("Landscape", global::com.vmax.windows.ads.RequestedOrientation.Landscape);
@@ -339,17 +335,21 @@ namespace WinApp.WinApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 12:   //  com.vmax.windows.ads.UserDetails
+            case 11:   //  com.vmax.windows.ads.UserDetails
                 userType = new global::WinApp.WinApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 13:   //  Boolean
+            case 12:   //  Boolean
                 xamlType = new global::WinApp.WinApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 14:   //  Int32
+            case 13:   //  Int32
+                xamlType = new global::WinApp.WinApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 14:   //  String
                 xamlType = new global::WinApp.WinApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
@@ -458,95 +458,95 @@ namespace WinApp.WinApp_XamlTypeInfo
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             that.UX = (global::com.vmax.windows.ads.AdUX)Value;
         }
-        private object get_1_VMAXAdView_AdspotId(object instance)
-        {
-            var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
-            return that.AdspotId;
-        }
-        private void set_1_VMAXAdView_AdspotId(object instance, object Value)
-        {
-            var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
-            that.AdspotId = (global::System.String)Value;
-        }
-        private object get_2_VMAXAdView_LogLevel(object instance)
+        private object get_1_VMAXAdView_LogLevel(object instance)
         {
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             return that.LogLevel;
         }
-        private void set_2_VMAXAdView_LogLevel(object instance, object Value)
+        private void set_1_VMAXAdView_LogLevel(object instance, object Value)
         {
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             that.LogLevel = (global::com.vmax.windows.ads.LogLevel)Value;
         }
-        private object get_3_VMAXAdView_WebControl(object instance)
+        private object get_2_VMAXAdView_WebControl(object instance)
         {
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             return that.WebControl;
         }
-        private object get_4_VMAXAdView_WebBorder(object instance)
+        private object get_3_VMAXAdView_WebBorder(object instance)
         {
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             return that.WebBorder;
         }
-        private object get_5_VMAXAdView_InlineCloseBorder(object instance)
+        private object get_4_VMAXAdView_InlineCloseBorder(object instance)
         {
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             return that.InlineCloseBorder;
         }
-        private object get_6_VMAXAdView_RequestedOrientation(object instance)
+        private object get_5_VMAXAdView_RequestedOrientation(object instance)
         {
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             return that.RequestedOrientation;
         }
-        private void set_6_VMAXAdView_RequestedOrientation(object instance, object Value)
+        private void set_5_VMAXAdView_RequestedOrientation(object instance, object Value)
         {
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             that.RequestedOrientation = (global::com.vmax.windows.ads.RequestedOrientation)Value;
         }
-        private object get_7_VMAXAdView_UserInfo(object instance)
+        private object get_6_VMAXAdView_UserInfo(object instance)
         {
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             return that.UserInfo;
         }
-        private void set_7_VMAXAdView_UserInfo(object instance, object Value)
+        private void set_6_VMAXAdView_UserInfo(object instance, object Value)
         {
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             that.UserInfo = (global::com.vmax.windows.ads.UserDetails)Value;
         }
-        private object get_8_VMAXAdView_LocationDetectionEnabled(object instance)
+        private object get_7_VMAXAdView_LocationDetectionEnabled(object instance)
         {
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             return that.LocationDetectionEnabled;
         }
-        private void set_8_VMAXAdView_LocationDetectionEnabled(object instance, object Value)
+        private void set_7_VMAXAdView_LocationDetectionEnabled(object instance, object Value)
         {
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             that.LocationDetectionEnabled = (global::System.Boolean)Value;
         }
-        private object get_9_VMAXAdView_IsExpanded(object instance)
+        private object get_8_VMAXAdView_IsExpanded(object instance)
         {
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             return that.IsExpanded;
         }
-        private object get_10_VMAXAdView_InterstitialDuration(object instance)
+        private object get_9_VMAXAdView_InterstitialDuration(object instance)
         {
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             return that.InterstitialDuration;
         }
-        private void set_10_VMAXAdView_InterstitialDuration(object instance, object Value)
+        private void set_9_VMAXAdView_InterstitialDuration(object instance, object Value)
         {
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             that.InterstitialDuration = (global::System.Int32)Value;
         }
-        private object get_11_VMAXAdView_RefreshRate(object instance)
+        private object get_10_VMAXAdView_RefreshRate(object instance)
         {
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             return that.RefreshRate;
         }
-        private void set_11_VMAXAdView_RefreshRate(object instance, object Value)
+        private void set_10_VMAXAdView_RefreshRate(object instance, object Value)
         {
             var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
             that.RefreshRate = (global::System.Int32)Value;
+        }
+        private object get_11_VMAXAdView_AdspotId(object instance)
+        {
+            var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
+            return that.AdspotId;
+        }
+        private void set_11_VMAXAdView_AdspotId(object instance, object Value)
+        {
+            var that = (global::com.vmax.windows.ads.wp81.VMAXAdView)instance;
+            that.AdspotId = (global::System.String)Value;
         }
         private object get_12_VMAXAdView_SetWebviewBackgroundColor(object instance)
         {
@@ -627,71 +627,71 @@ namespace WinApp.WinApp_XamlTypeInfo
                 xamlMember.Getter = get_0_VMAXAdView_UX;
                 xamlMember.Setter = set_0_VMAXAdView_UX;
                 break;
-            case "com.vmax.windows.ads.wp81.VMAXAdView.AdspotId":
-                userType = (global::WinApp.WinApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("com.vmax.windows.ads.wp81.VMAXAdView");
-                xamlMember = new global::WinApp.WinApp_XamlTypeInfo.XamlMember(this, "AdspotId", "String");
-                xamlMember.Getter = get_1_VMAXAdView_AdspotId;
-                xamlMember.Setter = set_1_VMAXAdView_AdspotId;
-                break;
             case "com.vmax.windows.ads.wp81.VMAXAdView.LogLevel":
                 userType = (global::WinApp.WinApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("com.vmax.windows.ads.wp81.VMAXAdView");
                 xamlMember = new global::WinApp.WinApp_XamlTypeInfo.XamlMember(this, "LogLevel", "com.vmax.windows.ads.LogLevel");
-                xamlMember.Getter = get_2_VMAXAdView_LogLevel;
-                xamlMember.Setter = set_2_VMAXAdView_LogLevel;
+                xamlMember.Getter = get_1_VMAXAdView_LogLevel;
+                xamlMember.Setter = set_1_VMAXAdView_LogLevel;
                 break;
             case "com.vmax.windows.ads.wp81.VMAXAdView.WebControl":
                 userType = (global::WinApp.WinApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("com.vmax.windows.ads.wp81.VMAXAdView");
                 xamlMember = new global::WinApp.WinApp_XamlTypeInfo.XamlMember(this, "WebControl", "Windows.UI.Xaml.Controls.WebView");
-                xamlMember.Getter = get_3_VMAXAdView_WebControl;
+                xamlMember.Getter = get_2_VMAXAdView_WebControl;
                 xamlMember.SetIsReadOnly();
                 break;
             case "com.vmax.windows.ads.wp81.VMAXAdView.WebBorder":
                 userType = (global::WinApp.WinApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("com.vmax.windows.ads.wp81.VMAXAdView");
                 xamlMember = new global::WinApp.WinApp_XamlTypeInfo.XamlMember(this, "WebBorder", "Windows.UI.Xaml.Controls.Border");
-                xamlMember.Getter = get_4_VMAXAdView_WebBorder;
+                xamlMember.Getter = get_3_VMAXAdView_WebBorder;
                 xamlMember.SetIsReadOnly();
                 break;
             case "com.vmax.windows.ads.wp81.VMAXAdView.InlineCloseBorder":
                 userType = (global::WinApp.WinApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("com.vmax.windows.ads.wp81.VMAXAdView");
                 xamlMember = new global::WinApp.WinApp_XamlTypeInfo.XamlMember(this, "InlineCloseBorder", "Windows.UI.Xaml.Controls.Border");
-                xamlMember.Getter = get_5_VMAXAdView_InlineCloseBorder;
+                xamlMember.Getter = get_4_VMAXAdView_InlineCloseBorder;
                 xamlMember.SetIsReadOnly();
                 break;
             case "com.vmax.windows.ads.wp81.VMAXAdView.RequestedOrientation":
                 userType = (global::WinApp.WinApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("com.vmax.windows.ads.wp81.VMAXAdView");
                 xamlMember = new global::WinApp.WinApp_XamlTypeInfo.XamlMember(this, "RequestedOrientation", "com.vmax.windows.ads.RequestedOrientation");
-                xamlMember.Getter = get_6_VMAXAdView_RequestedOrientation;
-                xamlMember.Setter = set_6_VMAXAdView_RequestedOrientation;
+                xamlMember.Getter = get_5_VMAXAdView_RequestedOrientation;
+                xamlMember.Setter = set_5_VMAXAdView_RequestedOrientation;
                 break;
             case "com.vmax.windows.ads.wp81.VMAXAdView.UserInfo":
                 userType = (global::WinApp.WinApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("com.vmax.windows.ads.wp81.VMAXAdView");
                 xamlMember = new global::WinApp.WinApp_XamlTypeInfo.XamlMember(this, "UserInfo", "com.vmax.windows.ads.UserDetails");
-                xamlMember.Getter = get_7_VMAXAdView_UserInfo;
-                xamlMember.Setter = set_7_VMAXAdView_UserInfo;
+                xamlMember.Getter = get_6_VMAXAdView_UserInfo;
+                xamlMember.Setter = set_6_VMAXAdView_UserInfo;
                 break;
             case "com.vmax.windows.ads.wp81.VMAXAdView.LocationDetectionEnabled":
                 userType = (global::WinApp.WinApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("com.vmax.windows.ads.wp81.VMAXAdView");
                 xamlMember = new global::WinApp.WinApp_XamlTypeInfo.XamlMember(this, "LocationDetectionEnabled", "Boolean");
-                xamlMember.Getter = get_8_VMAXAdView_LocationDetectionEnabled;
-                xamlMember.Setter = set_8_VMAXAdView_LocationDetectionEnabled;
+                xamlMember.Getter = get_7_VMAXAdView_LocationDetectionEnabled;
+                xamlMember.Setter = set_7_VMAXAdView_LocationDetectionEnabled;
                 break;
             case "com.vmax.windows.ads.wp81.VMAXAdView.IsExpanded":
                 userType = (global::WinApp.WinApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("com.vmax.windows.ads.wp81.VMAXAdView");
                 xamlMember = new global::WinApp.WinApp_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
-                xamlMember.Getter = get_9_VMAXAdView_IsExpanded;
+                xamlMember.Getter = get_8_VMAXAdView_IsExpanded;
                 xamlMember.SetIsReadOnly();
                 break;
             case "com.vmax.windows.ads.wp81.VMAXAdView.InterstitialDuration":
                 userType = (global::WinApp.WinApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("com.vmax.windows.ads.wp81.VMAXAdView");
                 xamlMember = new global::WinApp.WinApp_XamlTypeInfo.XamlMember(this, "InterstitialDuration", "Int32");
-                xamlMember.Getter = get_10_VMAXAdView_InterstitialDuration;
-                xamlMember.Setter = set_10_VMAXAdView_InterstitialDuration;
+                xamlMember.Getter = get_9_VMAXAdView_InterstitialDuration;
+                xamlMember.Setter = set_9_VMAXAdView_InterstitialDuration;
                 break;
             case "com.vmax.windows.ads.wp81.VMAXAdView.RefreshRate":
                 userType = (global::WinApp.WinApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("com.vmax.windows.ads.wp81.VMAXAdView");
                 xamlMember = new global::WinApp.WinApp_XamlTypeInfo.XamlMember(this, "RefreshRate", "Int32");
-                xamlMember.Getter = get_11_VMAXAdView_RefreshRate;
-                xamlMember.Setter = set_11_VMAXAdView_RefreshRate;
+                xamlMember.Getter = get_10_VMAXAdView_RefreshRate;
+                xamlMember.Setter = set_10_VMAXAdView_RefreshRate;
+                break;
+            case "com.vmax.windows.ads.wp81.VMAXAdView.AdspotId":
+                userType = (global::WinApp.WinApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("com.vmax.windows.ads.wp81.VMAXAdView");
+                xamlMember = new global::WinApp.WinApp_XamlTypeInfo.XamlMember(this, "AdspotId", "String");
+                xamlMember.Getter = get_11_VMAXAdView_AdspotId;
+                xamlMember.Setter = set_11_VMAXAdView_AdspotId;
                 break;
             case "com.vmax.windows.ads.wp81.VMAXAdView.SetWebviewBackgroundColor":
                 userType = (global::WinApp.WinApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("com.vmax.windows.ads.wp81.VMAXAdView");

@@ -49,11 +49,15 @@
                 <ad:VMAXAdView Height="100"
                                x:Name="TopBanner"
                                UX="Banner"
-                               Margin="0,10,0,530" />
-                <ad:VMAXAdView Height="100"
-                               x:Name="BottomBanner"
-                               AdspotId="d1ec84b5"
-                               UX="Banner"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       Width="480" />
+        <ad:VMAXAdView Height="84"
+                       x:Name="BottomBanner"
+                       HorizontalAlignment="Stretch"
+                       VerticalAlignment="Bottom"
+                       Width="520"
+                       UX="Banner"
                        Margin="1,513,-1,27" />
 
 
