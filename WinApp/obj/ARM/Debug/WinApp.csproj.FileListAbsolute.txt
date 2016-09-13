@@ -19,7 +19,6 @@ C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\bin\ARM\De
 C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\bin\ARM\Debug\Newtonsoft.Json.xml
 C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\bin\ARM\Debug\ExtendedProgressRing.pri
 C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\bin\ARM\Debug\Microsoft.Advertising.xml
-C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\obj\ARM\Debug\WinApp.csprojResolveAssemblyReference.cache
 C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\obj\ARM\Debug\App.g.i.cs
 C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\obj\ARM\Debug\App.g.cs
 C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\obj\ARM\Debug\MainPage.g.i.cs

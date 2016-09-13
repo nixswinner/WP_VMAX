@@ -45,6 +45,10 @@
     <AppxPackagedFile Include="C:\Users\Mobitech\Desktop\VMAX-WP81-XAML-SDK-and-Sample\VMAX-WP81-XAML-SDK-and-Sample\VMAXSDKWP81\packages\VMAX\Microsoft.Advertising.winmd">
       <PackagePath>Microsoft.Advertising.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\Assets\BadgeLogo.scale-240.png">
+      <PackagePath>Assets\BadgeLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mobitech\Documents\Visual Studio 2015\Projects\WinApp\WinApp\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>

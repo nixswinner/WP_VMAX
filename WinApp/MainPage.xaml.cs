@@ -8,6 +8,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using VungleSDK;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Phone.UI.Input;
 using Windows.UI.Core;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
@@ -38,12 +39,14 @@ namespace WinApp
         //........................................................................................................................
         VMAXAdView adView = new VMAXAdView(); // To initialize the VMAXAdView intertial video
         VMAXAdView banner = new VMAXAdView(); // To initialize the VMAXAdView banner
-
+                                              //Handling backpress
+        
 
         public MainPage()
         {
             this.InitializeComponent();
-
+            //Handling backpress
+            HardwareButtons.BackPressed += HardwareButtons_BackPressed;
             this.NavigationCacheMode = NavigationCacheMode.Required;
             //Vmax.....
             adView.AdspotId = IntertialKey; // To specify the Adspot Id. Replace “MY_ADSPOT_ID” with your actual Adspot Id.
@@ -68,7 +71,30 @@ namespace WinApp
             BottomBanner.DidLoadAd += BottomBanner_DidLoadAd;
             BottomBanner.LoadAd();
             BottomBanner.ShowAd();
+           
+        }
 
+        private async void HardwareButtons_BackPressed(object sender, BackPressedEventArgs e)
+        {
+          
+            MessageDialog dialog = new MessageDialog("Do you really want to Exit App");
+            dialog.Commands.Add(new UICommand("OK"));
+            dialog.Commands.Add(new UICommand("Cancle"));
+            var result = await dialog.ShowAsync();
+            var Actions = result.Label;
+            switch (Actions)
+            {
+                case "OK":
+                    Application.Current.Exit();
+                    break;
+                case "Cancle":
+                    adView.LoadAd();
+                    adView.ShowAd();
+                    break;
+
+
+            }
+           
         }
 
         private void BottomBanner_DidLoadAd(object sender, EventArgs e)
